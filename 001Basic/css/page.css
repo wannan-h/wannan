@@ -8,6 +8,7 @@ page{
 
     position: absolute;
     text-align: center;
+    padding-top: 30%;
 }
 #c{
     background-color: lightgreen;
