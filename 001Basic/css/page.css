@@ -5,10 +5,8 @@ html,body,page{
 }
 page{
     font-size: 180px;
-
     position: absolute;
     text-align: center;
-    padding-top: 30%;
 }
 #c{
     background-color: lightgreen;
@@ -20,11 +18,25 @@ page{
 }
 #q{
     animation:q 10s infinite;
+    background-image: url('../images/人群走着走着,就散了。我在这个世界上站定,只有一道模糊的身影跟随着我。.jpg');
+    background-size: 100% 100%;
 }
 #d{
     background-color: black;
     color:white;
     animation:d 10s infinite;
+}
+#z{
+    font-size: 36px;
+    display: block;
+    animation:z 10s infinite;
+}
+@keyframes z {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 100}
+    100%{opacity: 0}
 }
 @keyframes c {
     0%{opacity: 0}
